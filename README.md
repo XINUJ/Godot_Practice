@@ -10,6 +10,7 @@ New mechanics added such as projectiles and collision to the "Hello World" proje
 
 Week 3
 <img width="573" height="325" alt="Screenshot 2026-02-24 at 10 30 48 PM" src="https://github.com/user-attachments/assets/c5a64118-8397-42b6-bdbc-2dc2b69ef495" />
+
 We now started practicing creating runner games. In this activity I created a new project where I chose to replicate the chrome dinosaur runner game but with my own theme and flair.
 
 <img width="834" height="468" alt="Screenshot 2026-02-24 at 10 32 57 PM" src="https://github.com/user-attachments/assets/126ca91c-21e4-48d8-b514-5a444ac6ea55" />
@@ -19,5 +20,6 @@ The blobfish is quite the sad animal if brought to the surface since when taken 
 It somewhat has a difficulty system where higher levels bring new enemies. The game currently only has two levels where a higher level can be achieved by reaching a certain score (around 2000 the current version of the game). New enemies spawn (in this case, bats) upon reaching new levels.
 
 <img width="577" height="321" alt="Screenshot 2026-02-24 at 10 32 00 PM" src="https://github.com/user-attachments/assets/9749f567-7b4e-4c03-8821-cb56cc2b2971" />
+
 Hitboxes might still need an update though as it is a bit unfair for the player.
 
