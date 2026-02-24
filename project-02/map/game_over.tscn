@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://hf6b3ny15q36"]
+
+[ext_resource type="FontFile" uid="uid://bhadialt7okw1" path="res://fonts/retro.ttf" id="1_8c2va"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n5d8i"]
+bg_color = Color(0, 0.72703135, 0.13513052, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3oiy"]
+bg_color = Color(0.8757119, 0.4894188, 7.70092e-07, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ocyib"]
+bg_color = Color(1.540184e-06, 0.706187, 0.5210635, 1)
+
+[node name="GameOver" type="CanvasLayer" unique_id=1418395058]
+process_mode = 2
+
+[node name="GameOverLabel" type="Label" parent="." unique_id=622286855]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -246.0
+offset_top = -190.0
+offset_right = 245.0
+offset_bottom = -94.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_8c2va")
+theme_override_font_sizes/font_size = 75
+text = "GAME OVER"
+
+[node name="Button" type="Button" parent="." unique_id=862145607]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_8c2va")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_n5d8i")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_b3oiy")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ocyib")
+text = "RESTART"

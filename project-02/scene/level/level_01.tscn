@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bwsccoud8tm07"]
+
+[ext_resource type="Script" uid="uid://boahtnupxxujd" path="res://scene/level/level_01.gd" id="1_axwj7"]
+[ext_resource type="PackedScene" uid="uid://c0x4qg3wcj1wk" path="res://map/background.tscn" id="2_5eykv"]
+[ext_resource type="PackedScene" uid="uid://5k5knl1u8hs3" path="res://map/ground.tscn" id="3_jk1vf"]
+[ext_resource type="PackedScene" uid="uid://dvmpd1j44ws6d" path="res://character/character_body_2d.tscn" id="4_jk1vf"]
+[ext_resource type="PackedScene" uid="uid://cjh4w3rtx831m" path="res://map/hud.tscn" id="5_vmqx0"]
+[ext_resource type="PackedScene" uid="uid://hf6b3ny15q36" path="res://map/game_over.tscn" id="6_i1xaq"]
+[ext_resource type="PackedScene" uid="uid://byp3ijfte5fm6" path="res://map/level_up.tscn" id="7_axwj7"]
+
+[node name="Main" type="Node2D" unique_id=24752154]
+script = ExtResource("1_axwj7")
+
+[node name="Background" parent="." unique_id=357032033 instance=ExtResource("2_5eykv")]
+
+[node name="Ground" parent="." unique_id=289524012 instance=ExtResource("3_jk1vf")]
+
+[node name="Player" parent="." unique_id=179301787 instance=ExtResource("4_jk1vf")]
+position = Vector2(146, 519)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1543882121]
+position = Vector2(576, 324)
+
+[node name="HUD" parent="." unique_id=1884919965 instance=ExtResource("5_vmqx0")]
+
+[node name="GameOver" parent="." unique_id=1418395058 instance=ExtResource("6_i1xaq")]
+
+[node name="LevelUp" parent="." unique_id=1722219967 instance=ExtResource("7_axwj7")]
