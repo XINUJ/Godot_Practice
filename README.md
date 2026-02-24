@@ -9,6 +9,7 @@ Week 2
 New mechanics added such as projectiles and collision to the "Hello World" project.
 
 Week 3
+<br />
 <img width="573" height="325" alt="Screenshot 2026-02-24 at 10 30 48 PM" src="https://github.com/user-attachments/assets/c5a64118-8397-42b6-bdbc-2dc2b69ef495" />
 <br />
 We now started practicing creating runner games. In this activity I created a new project where I chose to replicate the chrome dinosaur runner game but with my own theme and flair.
