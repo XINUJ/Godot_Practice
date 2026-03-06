@@ -1,4 +1,4 @@
-Simple practice exercise, no dependencies yet...
+<img width="1190" height="795" alt="Screenshot 2026-03-07 at 1 55 21 AM" src="https://github.com/user-attachments/assets/1cf1f727-f21d-4839-b520-61da54352305" />Simple practice exercise, no dependencies yet...
 
 Week 1
 ![Test_Photo](https://github.com/user-attachments/assets/94783231-a9dd-48e7-8996-5868ee937fc7)
@@ -25,4 +25,9 @@ It somewhat has a difficulty system where higher levels bring new enemies. The g
 <img width="577" height="321" alt="Screenshot 2026-02-24 at 10 32 00 PM" src="https://github.com/user-attachments/assets/9749f567-7b4e-4c03-8821-cb56cc2b2971" />
 <br />
 Hitboxes might still need an update though as it is a bit unfair for the player.
+
+Week 4
+<br />
+<img width="1190" height="795" alt="Screenshot 2026-03-07 at 1 55 21 AM" src="https://github.com/user-attachments/assets/a31a19af-db5e-41ec-b0fa-f815fced85ca" />
+New enemy added, a golem that charges at the player upon seeing them. It is a large entity that requires timing to dodge. A new background soundtrack is also added as well as jumping sound effects.
 
