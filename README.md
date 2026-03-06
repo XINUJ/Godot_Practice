@@ -1,5 +1,3 @@
-<img width="1190" height="795" alt="Screenshot 2026-03-07 at 1 55 21 AM" src="https://github.com/user-attachments/assets/1cf1f727-f21d-4839-b520-61da54352305" />Simple practice exercise, no dependencies yet...
-
 Week 1
 ![Test_Photo](https://github.com/user-attachments/assets/94783231-a9dd-48e7-8996-5868ee937fc7)
 Practice activity creating a "Hello World" statement with a moving node, in my case, it is a map with a character sprite.
