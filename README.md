@@ -32,6 +32,7 @@ New enemy added, a golem that charges at the player upon seeing them. It is a la
 Week 5
 <br />
 <img width="226" height="120" alt="Screenshot 2026-03-07 at 3 12 39 PM" src="https://github.com/user-attachments/assets/e191d6e6-ed7a-4486-a1b2-8f4ca1be73b1" />
+<br />
 New downloadable client for windows and mac with all the latest features. Mobile version may be coming soon. 
 <br />
 Link to google drive for both versions: https://drive.google.com/drive/folders/1VR6mBWk4QplQlwwYduFifFsSF72v_qR1?usp=drive_link
