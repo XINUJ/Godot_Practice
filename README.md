@@ -37,4 +37,8 @@ New downloadable client for windows and mac with all the latest features. Mobile
 <br />
 Link to google drive for both versions: https://drive.google.com/drive/folders/1VR6mBWk4QplQlwwYduFifFsSF72v_qR1?usp=drive_link
 
-
+Week 6
+<br />
+<img width="226" height="120" alt="Screenshot 2026-03-14 at 3.48.23 PM" src="https://github.com/user-attachments/assets/e191d6e6-ed7a-4486-a1b2-8f4ca1be73b1" />
+<br />
+New multiplayer version of the runner game added. As of now, the multiplayer supports two-player local only with a shared screen for both players.
