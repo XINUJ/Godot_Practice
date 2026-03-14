@@ -39,6 +39,6 @@ Link to google drive for both versions: https://drive.google.com/drive/folders/1
 
 Week 6
 <br />
-<img width="226" height="120" alt="blob_multiplayer" src="https://github.com/user-attachments/assets/blob_multiplayer.png" />
+<img width="226" height="120" alt="blob_multiplayer" src="https://github.com/XINUJ/Godot_Practice/blob/main/blob_multiplayer.png" />
 <br />
 New multiplayer version of the runner game added. As of now, the multiplayer supports two-player local only with a shared screen for both players.
