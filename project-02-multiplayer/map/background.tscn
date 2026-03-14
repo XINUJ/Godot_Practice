@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://c0x4qg3wcj1wk"]
+
+[ext_resource type="Texture2D" uid="uid://ddb3a6be576tg" path="res://background_assets/parallax-industrial-web/Assets/Layers/bg.png" id="1_pts0y"]
+[ext_resource type="Texture2D" uid="uid://b5v4170ck8alv" path="res://background_assets/parallax-industrial-web/Assets/Layers/far-buildings.png" id="2_eijk2"]
+[ext_resource type="Texture2D" uid="uid://c57c0xpjysb7a" path="res://background_assets/parallax-industrial-web/Assets/Layers/buildings.png" id="3_mtd8t"]
+[ext_resource type="Texture2D" uid="uid://ii303ng6sp5" path="res://background_assets/parallax-industrial-web/Assets/Layers/skill-foreground.png" id="4_32fra"]
+
+[node name="Background" type="ParallaxBackground" unique_id=357032033]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=251217589]
+scale = Vector2(4.2344713, 4.0469975)
+texture = ExtResource("1_pts0y")
+centered = false
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1217161110]
+scroll_scale = Vector2(1.1, 1)
+repeat_size = Vector2(852, 0)
+repeat_times = 100000
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=991211677]
+position = Vector2(576, 323.99997)
+scale = Vector2(5.4084506, 4.5633802)
+texture = ExtResource("2_eijk2")
+
+[node name="Parallax2D2" type="Parallax2D" parent="." unique_id=1859033515]
+scroll_scale = Vector2(1.3, 1)
+repeat_size = Vector2(1088, 0)
+repeat_times = 100000
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2" unique_id=707614452]
+position = Vector2(576, 324)
+scale = Vector2(4.235294, 4.3199997)
+texture = ExtResource("3_mtd8t")
+
+[node name="Parallax2D3" type="Parallax2D" parent="." unique_id=395363223]
+scroll_scale = Vector2(1.5, 1)
+repeat_size = Vector2(1088, 0)
+repeat_times = 100000
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3" unique_id=297404157]
+position = Vector2(575.25, 422.17996)
+scale = Vector2(4.2408085, 4.342692)
+texture = ExtResource("4_32fra")
