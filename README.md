@@ -2,11 +2,11 @@ Week 1
 ![Test_Photo](https://github.com/user-attachments/assets/94783231-a9dd-48e7-8996-5868ee937fc7)
 Practice activity creating a "Hello World" statement with a moving node, in my case, it is a map with a character sprite.
 
-Week 2
+Week 2 - Activity 1
 <img width="1440" height="900" alt="Screenshot 2026-02-20 at 3 45 52 PM" src="https://github.com/user-attachments/assets/97975f17-ee4c-49a6-a7e0-761e75f91501" />
 New mechanics added such as projectiles and collision to the "Hello World" project.
 
-Week 3
+Week 2 - Activity 2
 <br />
 <img width="573" height="325" alt="Screenshot 2026-02-24 at 10 30 48 PM" src="https://github.com/user-attachments/assets/c5a64118-8397-42b6-bdbc-2dc2b69ef495" />
 <br />
@@ -24,12 +24,12 @@ It somewhat has a difficulty system where higher levels bring new enemies. The g
 <br />
 Hitboxes might still need an update though as it is a bit unfair for the player.
 
-Week 4
+Week 3
 <br />
 <img width="1190" height="795" alt="Screenshot 2026-03-07 at 1 55 21 AM" src="https://github.com/user-attachments/assets/a31a19af-db5e-41ec-b0fa-f815fced85ca" />
 New enemy added, a golem that charges at the player upon seeing them. It is a large entity that requires timing to dodge. A new background soundtrack is also added as well as jumping sound effects.
 
-Week 5
+Week 4 - Activity 1A
 <br />
 <img width="226" height="120" alt="Screenshot 2026-03-07 at 3 12 39 PM" src="https://github.com/user-attachments/assets/e191d6e6-ed7a-4486-a1b2-8f4ca1be73b1" />
 <br />
@@ -37,7 +37,7 @@ New downloadable client for windows and mac with all the latest features. Mobile
 <br />
 Link to google drive for both versions: https://drive.google.com/drive/folders/1VR6mBWk4QplQlwwYduFifFsSF72v_qR1?usp=drive_link
 
-Week 6
+Week 4 - Activity 1B
 <br />
 <img width="226" height="120" alt="blob_multiplayer" src="https://github.com/XINUJ/Godot_Practice/blob/main/blob_multiplayer.png" />
 <br />
