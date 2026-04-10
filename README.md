@@ -31,13 +31,18 @@ New enemy added, a golem that charges at the player upon seeing them. It is a la
 
 Week 4 - Activity 1A
 <br />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 9 16 19 PM" src="https://github.com/user-attachments/assets/f37b8a4b-53b9-4da0-a3c2-997b67c7c622" />
+Trying out creating a simple 3D game replicating the first practice activity. The simple character can perform basic actions and collect items in the map.
+
+Week 4 - Activity 1B
+<br />
 <img width="226" height="120" alt="Screenshot 2026-03-07 at 3 12 39 PM" src="https://github.com/user-attachments/assets/e191d6e6-ed7a-4486-a1b2-8f4ca1be73b1" />
 <br />
 New downloadable client for windows and mac with all the latest features. Mobile version may be coming soon. 
 <br />
 Link to google drive for both versions: https://drive.google.com/drive/folders/1VR6mBWk4QplQlwwYduFifFsSF72v_qR1?usp=drive_link
 
-Week 4 - Activity 1B
+Week 4 - Activity 1C
 <br />
 <img width="226" height="120" alt="blob_multiplayer" src="https://github.com/XINUJ/Godot_Practice/blob/main/blob_multiplayer.png" />
 <br />
