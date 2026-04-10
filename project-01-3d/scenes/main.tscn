@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://buu8wpv6bkac4"]
+
+[ext_resource type="PackedScene" uid="uid://0ecxol0lf2e3" path="res://scenes/ground.tscn" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://qohdmy7cd6f4" path="res://scenes/player.tscn" id="2_sugp2"]
+[ext_resource type="PackedScene" uid="uid://bf6tpt5itrktk" path="res://scenes/blue_ball.tscn" id="3_jyhfs"]
+[ext_resource type="Script" uid="uid://k1uuhilnslov" path="res://scenes/blue_ball.gd" id="4_tbgi4"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0wfyh"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_sugp2"]
+sky_material = SubResource("ProceduralSkyMaterial_0wfyh")
+
+[sub_resource type="Environment" id="Environment_jyhfs"]
+background_mode = 2
+sky = SubResource("Sky_sugp2")
+tonemap_mode = 2
+
+[node name="Main" type="Node3D" unique_id=1919063686]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1314292529]
+environment = SubResource("Environment_jyhfs")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1883151417]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Ground" parent="." unique_id=1691643247 instance=ExtResource("1_0wfyh")]
+
+[node name="Player" parent="." unique_id=1732798638 instance=ExtResource("2_sugp2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=732043910]
+transform = Transform3D(1, 0, 0, 0, 0.9970219, 0.07711927, 0, -0.07711927, 0.9970219, -0.04897976, 1.310043, 3.7327843)
+
+[node name="BlueBall" parent="." unique_id=275951701 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.446198, -4.6562595)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall2" parent="." unique_id=515208574 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3280387, 1.446198, -0.5082817)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall3" parent="." unique_id=1826057441 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9528339, 2.2583516, 0.0741148)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall4" parent="." unique_id=1605205763 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4318438, 2.809608, -3.0285826)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall5" parent="." unique_id=878247840 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8940942, 1.446198, -0.26174927)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall6" parent="." unique_id=1177552847 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9007673, 1.9091308, -0.44256258)
+script = ExtResource("4_tbgi4")
+
+[node name="BlueBall7" parent="." unique_id=1238229768 instance=ExtResource("3_jyhfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32935143, 2.4488125, -1.5808663)
+script = ExtResource("4_tbgi4")
